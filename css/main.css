@@ -1,12 +1,35 @@
 /* common */
 
+.cf:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	font-size:0;	
+	clear: both; 
+}
 
 
 
 /* header */
+.header {
+	width: 690px;
+	height: 120px;
+	background: #00684a;
+	margin: 0 auto;
+}
+
+.page-title {
+	text-indent: -9999px;
+	padding: 20px;
+	width: 690px;
+	height: 120px;
+	background-image: url("../image/kinjo.png");
+	background-repeat: no-repeat;
+	background-position: 20px 10px;
+}
 
 .header-inner {
-	width: 960px;
+	width: 690px;
 	margin: 0 auto;
 }
 
@@ -17,10 +40,25 @@
 /* main */
 
 .main {
-	width: 960px;
+	width: 690px;
 	height: 900px;
-	background: #f99;
+	background: #00684a;
 	margin: 0 auto;
 
 }
 
+
+.contents-list {
+	width: 435px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.contents-list > li {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.contents-list > li:nth-child(2n+1) {
+	margin-right: 30px;
+}
