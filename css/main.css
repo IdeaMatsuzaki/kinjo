@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+.header{
+	height: 40px;
+	background-color: #00684a;
+		color: #fff;
+}
+
+.header-title{
+	font-size: 16px;
+	padding-top: 12px;
+
+}
 
 .main {
 	background-image: url(binder.jpg);
@@ -11,6 +22,7 @@
 
 .inner {
 	width: 600px;
+<<<<<<< HEAD
 	margin-left: 500px;
 }
 
@@ -25,3 +37,18 @@
 	margin-left: 120px
 	margin-top: 200px;
 }
+=======
+	margin-left: 100px;
+}
+
+.footer{
+	background-color: #00684a;
+	color: #fff;
+}
+
+.copyright{
+	font-size: 12px;
+	text-align: right;
+}
+
+>>>>>>> b495366c8e795418aa8f58ecdfc777a017a9f14f
