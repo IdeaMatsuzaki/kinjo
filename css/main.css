@@ -22,6 +22,22 @@
 
 .inner {
 	width: 600px;
+<<<<<<< HEAD
+	margin-left: 500px;
+}
+
+.photo {
+	width: 600px;
+	margin-left: 120px
+	margin-top: 200px;
+}
+
+.inner-photo {
+	width: 600px;
+	margin-left: 120px
+	margin-top: 200px;
+}
+=======
 	margin-left: 100px;
 }
 
@@ -35,3 +51,4 @@
 	text-align: right;
 }
 
+>>>>>>> b495366c8e795418aa8f58ecdfc777a017a9f14f
