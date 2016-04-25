@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+.header{
+	height: 40px;
+	background-color: #00684a;
+		color: #fff;
+}
+
+.header-title{
+	font-size: 16px;
+	padding-top: 12px;
+
+}
 
 .main {
 	background-image: url(binder.jpg);
