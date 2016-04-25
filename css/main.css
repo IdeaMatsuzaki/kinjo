@@ -24,3 +24,14 @@
 	width: 600px;
 	margin-left: 100px;
 }
+
+.footer{
+	background-color: #00684a;
+	color: #fff;
+}
+
+.copyright{
+	font-size: 12px;
+	text-align: right;
+}
+
