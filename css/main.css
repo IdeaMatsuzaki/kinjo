@@ -95,6 +95,9 @@
 
 .photo {
 	width: 600px;
+	position: absolute;
+    top: 322px;
+    left: 171px;
 	margin-left: 120px
 	margin-top: 200px;
 }
