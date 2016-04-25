@@ -1,9 +1,74 @@
+/* common */
+
+.cf:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	font-size:0;	
+	clear: both; 
+}
+
+
+/* header */
+.header-top {
+	width: 960px;
+	height: 120px;
+	background: #00684a;
+	margin: 0 auto;
+}
+
+.page-title-top {
+	text-indent: -9999px;
+	padding: 20px;
+	margin: 0 auto;
+	width: 690px;
+	height: 120px;
+	background-image: url("../image/kinjo.png");
+	background-repeat: no-repeat;
+	background-position: 20px 10px;
+}
+
+.header-inner-top {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.page-title-top {
+	font-size: 24px;
+}
+
+/* main */
+
+.main-top {
+	width: 960px;
+	height: 900px;
+	background: #00684a;
+	margin: 0 auto;
+
+}
+
+
+.contents-list-top {
+	width: 435px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.contents-list-top > li {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.contents-list-top > li:nth-child(2n+1) {
+	margin-right: 30px;
+}
+
 @charset "utf-8";
 
 .header{
 	height: 40px;
 	background-color: #00684a;
-		color: #fff;
+	color: #fff;
 }
 
 .header-title{
@@ -16,13 +81,15 @@
 	background-image: url(binder.jpg);
 	margin: 100px, 100px;
 	background-repeat: no-repeat;
-	width: 960px,
+	width: 960px;
+	min-height: 1550px;
+	width: 1100px;
 }
 
 
 .inner {
-	width: 600px;
-<<<<<<< HEAD
+
+	width: 960px;
 	margin-left: 500px;
 }
 
@@ -36,13 +103,13 @@
 	width: 600px;
 	margin-left: 120px
 	margin-top: 200px;
-}
-=======
 	margin-left: 100px;
 }
 
 .footer{
 	background-color: #00684a;
+	width: 960px;
+	margin: 0 auto;
 	color: #fff;
 }
 
@@ -51,4 +118,3 @@
 	text-align: right;
 }
 
->>>>>>> b495366c8e795418aa8f58ecdfc777a017a9f14f
