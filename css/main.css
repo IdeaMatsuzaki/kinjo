@@ -1,0 +1,26 @@
+/* common */
+
+
+
+
+/* header */
+
+.header-inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.page-title {
+	font-size: 24px;
+}
+
+/* main */
+
+.main {
+	width: 960px;
+	height: 900px;
+	background: #f99;
+	margin: 0 auto;
+
+}
+
